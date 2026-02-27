@@ -39,7 +39,8 @@ enum MockData {
         atlChangePercentage: 90020.24075,
         atlDate: "2013-07-06T00:00:00.000Z",
         lastUpdated: "2021-03-13T23:18:10.268Z",
-        priceChangePercentage1HInCurrency: 3952.64,
+        sparklineIn7D: nil,
+        priceChangePercentage24HInCurrency: 3952.64,
         currentHoldings: 1.5
     )
 }
