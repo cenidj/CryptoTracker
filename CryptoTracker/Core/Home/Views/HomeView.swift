@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var showPortfolio: Bool = false
+    @State private var showPortfolio: Bool = true
     
     var body: some View {
         ZStack {
