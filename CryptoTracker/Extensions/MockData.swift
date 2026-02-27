@@ -10,6 +10,9 @@ import SwiftUI
 
 
 enum MockData {
+    
+    static let homeVM = HomeViewModel()
+    
     static let coin = CoinModel(
         id: "bitcoin",
         symbol: "btc",
