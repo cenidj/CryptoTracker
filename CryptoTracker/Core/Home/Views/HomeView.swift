@@ -18,10 +18,11 @@ struct HomeView: View {
             
             
             // content layer
-            VStack {
+            VStack(alignment: .leading) {
                 homeHeder
                 
                 Spacer(minLength: 0)
+                
             }
         }
     }
