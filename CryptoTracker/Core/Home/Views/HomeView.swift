@@ -22,13 +22,15 @@ struct HomeView: View {
             VStack(alignment: .leading) {
                 homeHeder
                 
-               columnTitles
+                SearchBarView(searchText: $vm.searchText)
+                
+                columnTitles
                 
                 if !showPortfolio {
                     allCoinList
-                    .transition(.move(edge: .leading))
+                        .transition(.move(edge: .leading))
                 }
-            
+                
                 if showPortfolio {
                     portfolioCoinList
                         .transition(.move(edge: .trailing))
