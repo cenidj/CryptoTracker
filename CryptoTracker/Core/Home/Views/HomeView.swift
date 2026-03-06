@@ -14,13 +14,15 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             // background layer
-            Color.theme.background
+            Color.theme.background 
                 .ignoresSafeArea()
             
             
             // content layer
             VStack(alignment: .leading) {
                 homeHeder
+                
+                HomeStatsView(showPortfolio: $showPortfolio)
                 
                 SearchBarView(searchText: $vm.searchText)
                 
