@@ -98,6 +98,9 @@ extension HomeView {
             }
         }
         .listStyle(.plain)
+        .refreshable {
+            
+        }
     }
     
     private var portfolioCoinList: some View {
